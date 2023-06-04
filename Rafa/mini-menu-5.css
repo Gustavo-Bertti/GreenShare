@@ -1,0 +1,7 @@
+.inscrever__mini{
+    color: var(--color-secundary);
+}
+.inscrever__mini:hover{
+    border-left: 3px solid var( --color-secundary);
+    padding-left: 3px;
+}

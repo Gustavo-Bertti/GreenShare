@@ -1,0 +1,8 @@
+.mini__menu__item{
+    list-style-type: none;
+}
+.mini__menu__item__link{
+    color: var(--color-primary);
+    font-family: var(--titulo-font);
+    font-size: 1rem;
+}
