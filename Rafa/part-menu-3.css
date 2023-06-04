@@ -1,9 +1,0 @@
-.menu__corpo__lista{
-    display: flex;
-    gap: 5em;
-    padding: 5em;
-    list-style-type: none;
-}
-.menu__item{
-    font-size: 1.5rem;
-}

@@ -1,5 +1,0 @@
-.inscrever:hover{
-    border-bottom: 2.2px solid var( --color-primary);
-    transform: scale(1.2);
-    transition: 170ms;
-}
