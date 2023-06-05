@@ -1,0 +1,7 @@
+.conteudo{
+    width: 100%;
+    margin: 6em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
