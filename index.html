@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/menu.css">
+    <link rel="stylesheet" href="./assets/CSS/mini-menu.css">
+    <link rel="stylesheet" href="./assets/CSS/style-index.css">
+    <script src="./assets/JS/main.js" defer></script>
+    <link rel="stylesheet" href="./assets/CSS/carrosel.css">
+    <script src="./assets/JS/carrosel.js" defer></script>
+    <link rel="stylesheet" href="./assets/CSS/style-index-responsive.css">
+    <link rel="shortcut icon" href="./assets/img/icon_green_share_pagina__preto.png" type="image/x-icon" />
+    <title>Green Share</title>
+</head>
+<body>
+    <!-- começo do menu -->
+    <header class="menu">
+        <img src="./assets/img/mini__menu_img.png" alt="imagem do menu responsivo, ao dar um click abre o meno responsivo" class="img__mini__menu" id="mini-menu" onclick="abreMenu();" >
+        <img src="./assets/img/mini__menu__aberto.png" alt="imagem do menu responsivo, ao dar um click abre o meno responsivo" class="img__mini__menu aberto" id="mini-menu-aberto" onclick="fechaMenu();" >
+        <img src="./assets/img/logo_green.png" alt="Logo da nosso projeto Green Share" class="logo">
+        <nav class="menu__corpo">
+            <ul class="menu__corpo__lista">
+                <li class="menu__item"><a class="menu__item__link" href="index.html">Menu</a></li>
+                <li class="menu__item"><a class="menu__item__link" href="agricola.html">Agrícola sustentavel</a></li>
+                <li class="menu__item"><a class="menu__item__link" href="ia.html">IA generativas</a></li>
+                <li class="menu__item"><a class="menu__item__link" href="modelo.html">Modelos de cultivo</a></li>
+                <li class="menu__item"><a class="menu__item__link inscrever" href="inscrever.html">Inscrever</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mini__menu" id="corpo-mini-menu">
+        <ul class="mini__menu__lista">
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="index.html">Menu</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="agricola.html">Agrícola sustentavel</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="ia.html">IA generativas</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="modelo.html">Modelos de cultivo</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link inscrever__mini" href="inscrever.html">Inscrever</a></li>
+        </ul>
+    </div>
+    <!-- Final do menu  -->
+    <!-- Conteudo -->
+    <main class="conteudo">
+        <h1 class="titulo-conteudo" id="titulo-conteudo">A  sua  participação  no  Green  Share  começa  aqui  !</h1>
+        <section class="conteudo__corpo">
+            <div class="conteudo__corpo__imagem">
+                <img src="./assets/img/agronomia_sustentavel.avif" alt="Duas mão juntas formando uma colcha, segurando terra que está germinando uma semente" class="imagem__corpo">
+                <img src="./assets/img/caixadealimentos.avif" alt="Uma pessoa segurando um caixa de alimentos" class="imagem__corpo">
+                <img src="./assets/img/mercadoriachegando.avif" alt="Sacolas cheia de frutos e vegetais colocadas no chão em frente uma porta, para ilustrar a chegada dos produtos" class="imagem__corpo">
+            </div>
+            <div id="slideshow-example" data-component="slideshow">
+                <div role="list">
+                  <div class="slide">
+                    <img src="./assets/img/agronomia_sustentavel.avif" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/img/caixadealimentos.avif" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/img/mercadoriachegando.avif" alt="">
+                  </div>
+                </div>
+              </div>
+            <div class="conteudo__corpo__texto">
+                <h1 class="conteudo__corpo__texto__titulo">Conheça o Green Share:</h1>
+                <p class="conteudo__corpo__texto__texto">
+                    O Green Share é um projeto idealizado para erradicar a fome, alcançar a segurança alimentar, melhorar a nutrição e promover a agricultura sustentável.
+                    Por meio de um comércio virtual, agricultores que utilizam métodos sustentáveis de plantio têm a oportunidade de vender uma porcentagem de cada muda
+                    ou árvore que gera alimento, gerando também comércio para agricultores de pequeno porte.Essa iniciativa permite dividir os custos e a colheita com o
+                    comprador, e 5% de toda a colheita serão doados a instituições que trabalham para combater a fome.
+                </p>
+                <a href="agricola.html" class="link__next">Conheça o funcionamento</a>
+            </div>
+        </section>
+    </main>
+    <!-- Fim do conteudo -->
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <img src="./assets/img/icon_Green_share_00000.png" alt="Um boneco de terno com gravata para ilustrar os participantes do grupo" class="imagem__equipe">
+            <div class="rodape__conteudo__texto">
+                <p>Camila Soares Pedra <strong class="traço">-</strong><br class="quebra__linha"> RM : 98246</p>
+                <p>Gustavo Bertti <strong class="traço">-</strong><br class="quebra__linha"> RM : 552243</p>
+                <p>Gustavo Macedo da Silva <strong class="traço">-</strong><br class="quebra__linha"> RM : 552333 </p>
+                <p>Rafael da Silva Camargo <strong class="traço">-</strong><br class="quebra__linha"> RM : 551127</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

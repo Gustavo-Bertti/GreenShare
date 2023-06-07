@@ -1,0 +1,85 @@
+@media screen and (max-width: 768px) {
+    .menu{
+        justify-content: flex-start;
+        gap: 5em;
+        align-items: center;
+    }
+    .img__mini__menu{
+        display: block;
+        width: 120px;
+        height: 100px;
+        margin-left: 1em;
+    }
+    .aberto{
+        display: none;
+    }
+    .menu__corpo{
+        display: none;
+    }
+    .rodape__conteudo{
+        gap: 0;
+    }
+    .imagem__equipe{
+        width: 25%;
+    }
+    .traço{
+        display: none;
+    }
+    .quebra__linha{
+        display: block;
+    }
+    .titulo .produtor {
+        width: 76.3px;
+    }
+    .imagem__conteudo{
+        width: 200px;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .logo{
+        width: 257px;
+    }
+    .menu{
+        width: 100%;
+        justify-content: flex-start;
+        gap: 1em;
+        align-items: center;
+    }
+    .img__mini__menu{
+        display: block;
+        width: 120px;
+        height: 100px;
+        margin-left: 1em;
+    }
+    .aberto{
+        display: none;
+    }
+    .menu__corpo{
+        display: none;
+    }
+    .conteudo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .conteudo__produtor{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .conteudo__cliente{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .rodape__conteudo{
+        gap: 0;
+    }
+    .imagem__equipe{
+        width: 20%;
+        margin-left: auto;
+    }
+    .rodape__conteudo__texto{
+        gap: 0.5em;
+    }  
+}

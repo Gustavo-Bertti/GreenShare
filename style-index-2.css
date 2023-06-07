@@ -1,0 +1,5 @@
+.titulo-conteudo{
+    font-family:var( --titulo-font);
+    color: var( --color-secundary);
+    font-size: 3rem;
+}

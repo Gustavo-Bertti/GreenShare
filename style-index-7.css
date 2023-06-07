@@ -1,0 +1,7 @@
+.imagem__corpo{
+    width: 33%;
+}
+.imagem__corpo:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}

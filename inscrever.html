@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/icon_green_share_pagina__preto.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/menu.css">
+    <link rel="stylesheet" href="./assets/CSS/mini-menu.css">
+    <link rel="stylesheet" href="./assets/CSS/style-inscrever.css">
+    <link rel="stylesheet" href="./assets/CSS/style-inscrever-responsive.css">
+    <script src="./assets/JS/main.js" defer></script>
+    <script src="./assets/JS/data.js" defer></script>
+    <title>Inscrever</title>
+</head>
+<body>
+    <!-- começo do menu -->
+    <header class="menu">
+        <img src="./assets/img/mini__menu_img.png" alt="imagem do menu responsivo, ao dar um click abre o meno responsivo" class="img__mini__menu" id="mini-menu" onclick="abreMenu();" >
+        <img src="./assets/img/mini__menu__aberto.png" alt="imagem do menu responsivo, ao dar um click abre o meno responsivo" class="img__mini__menu aberto" id="mini-menu-aberto" onclick="fechaMenu();" >
+        <img src="./assets/img/logo_green.png" alt="Logo da nosso projeto Green Share" class="logo">
+        <nav class="menu__corpo">
+            <ul class="menu__corpo__lista">
+                <li class="menu__item"><a class="menu__item__link" href="index.html">Menu</a></li>
+                <li class="menu__item"><a class="menu__item__link" href="agricola.html">Agrícola sustentavel</a></li>
+                <li class="menu__item"><a class="menu__item__link" href="ia.html">IA generativas</a></li>
+                <li class="menu__item"><a class="menu__item__link" href="modelo.html">Modelos de cultivo</a></li>
+                <li class="menu__item"><a class="menu__item__link inscrever" href="inscrever.html">Inscrever</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mini__menu" id="corpo-mini-menu">
+        <ul class="mini__menu__lista">
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="index.html">Menu</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="agricola.html">Agrícola sustentavel</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="ia.html">IA generativas</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link" href="modelo.html">Modelos de cultivo</a></li>
+            <li class="mini__menu__item"><a class="mini__menu__item__link inscrever__mini" href="inscrever.html">Inscrever</a></li>
+        </ul>
+    </div>
+    <!-- Final do menu  -->
+    <!-- começo conteudo -->
+    <main class="conteudo">
+        <section class="conteudo__produtor">
+            <div class="titulo"><img src="./assets/img/logo_green2.png" alt="Logo do Green Share otimizado para os produtores"  class="imagem__conteudo"><h1 class="produtor">Produtor</h1></div>
+            <div class="formulario">
+                    <label for="txtnomeProdutor">Nome completo:</label>
+                    <input type="text" minlength="1" name="txtnomeProdutor" placeholder="Everson Almeida da Silva">
+            </div>
+
+            <div class="formulario">
+                <label for="txtgeneroProdutor">Gênero:</label>
+                    <select name="txtgeneroProdutor">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                        <option value="nao-especificado">Prefiro não especificar</option>
+                    </select>
+            </div>
+
+            <div class="formulario">
+                <label for="txtemailProdutor">E-mail:</label>
+                <input type="email" name="txtemailProdutor" placeholder="exemplo@gmail.com">
+            </div>
+
+            <div class="formulario">
+                <label for="txtcelularProdutor">Telefone celular:</label>
+                <input type="text" name="txtcelularProdutor" maxlength="11" placeholder="(xx)xxxxx-xxxx">
+            </div>
+
+            <div class="formulario dia">
+                <label for="data-nascimentoProdutor">Data de Nascimento:</label>
+                    <select name="diaProdutor" id="dia">
+                        <option value="">Dia</option>
+                        <!-- Opções para os dias -->
+                    </select>
+                    <select name="mesProdutor" id="mes">
+                        <option value="">Mês</option>
+                        <!-- Opções para os meses -->
+                    </select>
+                    <select name="anoProdutor" id="ano">
+                        <option value="">Ano</option>
+                        <!-- Opções para os anos -->
+                    </select>
+            </div>
+            <input type="submit" value="Inscrever" class="inscrever__submit">
+        </section>
+
+        <section class="conteudo__cliente">
+           <div class="titulo"> <img src="./assets/img/logo_green.png" alt="Logo do Green Share otimizado para os clientes" class="imagem__conteudo"><h1>Cliente</h1></div>
+            <div class="formulario">
+                <label for="txtnomeCliente">Nome completo:</label>
+                <input type="text" minlength="1" name="txtnomeCliente" placeholder="Everson Almeida da Silva">
+            </div>
+
+            <div class="formulario">
+                <label for="txtgeneroCliente">Gênero:</label>
+                <select name="txtgeneroCliente">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                    <option value="nao-especificado">Prefiro não especificar</option>
+                </select>
+            </div>
+
+            <div class="formulario">
+                <label for="txtemailCliente">E-mail:</label>
+                <input type="email" name="txtemailCliente" placeholder="exemplo@gmail.com">
+            </div>
+
+            <div class="formulario">
+                <label for="txtcelularCliente">Telefone celular:</label>
+                <input type="text" name="txtcelularCliente" maxlength="11" placeholder="(xx)xxxxx-xxxx">
+            </div>
+
+            <div class="formulario dia">
+                <label for="data-nascimentoCliente">Data de Nascimento:</label>
+                <select name="data-nascimentoCliente" id="dia-dois">
+                    <option value="">Dia</option>
+                    <!-- Opções para os dias -->
+                </select>
+                <select name="mesCliente" id="mes-dois">
+                    <option value="">Mês</option>
+                    <!-- Opções para os meses -->
+                </select>
+                <select name="anoCliente" id="ano-dois">
+                    <option value="">Ano</option>
+                    <!-- Opções para os anos -->
+                </select>
+            </div>
+            <input type="submit" value="Inscrever" class="inscrever__submit">
+        </section>
+    </main>
+    <!-- final conteudo -->
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <img src="./assets/img/icon_Green_share_00000.png" alt="Um boneco de terno com gravata para ilustrar os participantes do grupo" class="imagem__equipe">
+            <div class="rodape__conteudo__texto">
+                <p>Camila Soares Pedra <strong class="traço">-</strong><br class="quebra__linha"> RM : 98246</p>
+                <p>Gustavo Bertti <strong class="traço">-</strong><br class="quebra__linha"> RM : 552243</p>
+                <p>Gustavo Macedo da Silva <strong class="traço">-</strong><br class="quebra__linha"> RM : 552333 </p>
+                <p>Rafael da Silva Camargo <strong class="traço">-</strong><br class="quebra__linha"> RM : 551127</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
